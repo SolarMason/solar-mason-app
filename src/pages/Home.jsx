@@ -211,7 +211,7 @@ export default function Home() {
                 <div style={{ display: 'flex', gap: '2px', marginBottom: '12px' }}>
                   {Array.from({ length: t.stars }).map((_, j) => <Star key={j} size={16} fill="#4ecdc4" stroke="#4ecdc4" />)}
                 </div>
-                <p style={{ fontSize: '0.9rem', color: 'rgba(255,255,255,0.7)', lineHeight: 1.6, marginBottom: '12px', fontStyle: 'italic' }}"{t.text}"</p>
+                <p style={{ fontSize: '0.9rem', color: 'rgba(255,255,255,0.7)', lineHeight: 1.6, marginBottom: '12px', fontStyle: 'italic' }}>"{t.text}"</p>
                 <p style={{ fontSize: '0.8rem', color: 'rgba(255,255,255,0.4)', fontWeight: 600 }}>— {t.name}</p>
               </div>
             ))}
@@ -237,13 +237,6 @@ export default function Home() {
             <button className="btn-primary" style={{ fontSize: '1.05rem', padding: '16px 32px' }} onClick={() => navigate('/contact')}>
               Schedule Your Free Consultation
             </button>
-          </div>
-        </div>
-      </section>
-    </div>
-  )
-}
-</button>
           </div>
         </div>
       </section>
